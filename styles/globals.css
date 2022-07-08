@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&family=Roboto+Mono:wght@500&family=Roboto:wght@500;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #fff;
+  background-color: #fff;
+  overflow-x: hidden;
+  font-size: 1em;
 }
 
 a {
@@ -11,6 +15,39 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
+
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
