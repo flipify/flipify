@@ -26,8 +26,8 @@
 }
 
 .host__section:last-of-type {
-    padding-bottom: 4.3em;
-  }
+  padding-bottom: 4.3em;
+}
 /* ARCHI SECTION  */
 .host__archiParent {
   width: 38em;
@@ -68,6 +68,76 @@
   text-transform: uppercase;
   margin-top: 18px;
 }
+
+/* PROJECT NAME */
+.host__ProjectName {
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.host__ProjectName__inside {
+  padding-top: 1.4em;
+  margin: 8em auto 0;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: -12px 20px 35px rgb(0 0 0 / 13%);
+  backdrop-filter: blur(17px);
+  border-radius: 12px;
+  width: 14em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.host__ProjectName__inside p:first-child {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  color: #4c4c4c;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+}
+
+.host__Input {
+  padding: 6px 0;
+  width: 17em;
+}
+
+.host__Input,
+.host__Input::placeholder {
+  text-align: center;
+  font-size: 0.55rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.host__ProjectName__inside button {
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
+  border-radius: 4.5px;
+  color: #fff;
+  font-size: 0.55rem;
+  padding: 5px 27px;
+  text-transform: uppercase;
+  margin-top: 9px;
+  margin-bottom: 7px;
+}
+
+.host__ProjectName__inside p:last-child {
+  font-family: "Roboto Flex", sans-serif;
+  color: #989898;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;

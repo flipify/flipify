@@ -19,7 +19,25 @@ function archiCard(prop) {
 }
 
 function SelectHost() {
-  const [activeHost, setActiveHost] = useState(false);
+  const [toggleNext, setToggleNext] = useState(false);
+  const showNextInput = () => {
+    if (toggleNext) {
+      return (
+        <div className={styles.host__ProjectName}>
+          <div className={styles.host__ProjectName__inside}>
+            <p>Name this project</p>
+            <input
+              className={styles.host__Input}
+              type="text"
+              placeholder="Enter project name"
+            />
+            <button>Next</button>
+            <p onClick={() => setToggleNext(false)}>Skip</p>
+          </div>
+        </div>
+      );
+    }
+  };
   return (
     <div>
       <Head>
@@ -62,9 +80,15 @@ function SelectHost() {
                 </Container>
               </div>
             </div>
-            <button className={styles.host__NextBtn}>Next</button>
+            <button
+              onClick={() => setToggleNext(true)}
+              className={styles.host__NextBtn}
+            >
+              Next
+            </button>
           </div>
         </section>
+        {showNextInput()}
       </div>
     </div>
   );
