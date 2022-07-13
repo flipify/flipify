@@ -1,0 +1,35 @@
+.hostPro_Cards {
+  border: 1px solid transparent;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  padding: 9.5px 0;
+  background: #ffffff;
+  box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.hostPro_Cards:hover {
+  border: 1px solid rgba(115, 54, 230, 1);
+}
+
+.hostPro_Cards__active {
+  border: 1px solid rgba(115, 54, 230, 1);
+}
+
+/* .hostPro_Cards img {
+  width: 7.7em !important;
+} */
+
+.hostPro_Cards img {
+  width: 5.5em !important;
+}
+
+.col_no_padding {
+  padding: 0 6.5px;
+  margin-bottom: 12px;
+}
