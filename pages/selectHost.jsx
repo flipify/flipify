@@ -61,14 +61,14 @@ function SelectHost() {
             <div className={styles.host__archiFlex}>
               <div className={styles.host__archiDetails}>
                 <Container>
-                  <p className={styles.host__stack}>Frontend</p>
+                  <p className={styles.host__stack}>Backend</p>
                   <Row>{archiDetails.map(archiCard)}</Row>
                 </Container>
               </div>
               <HArchiArrow className={styles.host_archiArrow} />
               <div className={styles.host__archiDetails}>
                 <Container>
-                  <p className={styles.host__stack}>Backend</p>
+                  <p className={styles.host__stack}>Frontend</p>
                   <Row>{archiDetails.map(archiCard)}</Row>
                 </Container>
               </div>

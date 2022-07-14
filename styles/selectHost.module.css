@@ -12,17 +12,19 @@
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 18px;
-  font-size: 1.55rem;
+  margin-bottom: 34px;
+  font-size: 2.8rem;
 }
 
 .hostParent {
-  width: 38em;
+  /* width: 38em; */
+  width: 63em;
   margin: 0 auto;
 }
 
 .host__section {
-  padding-bottom: 2.3em;
+  margin-top: 4em;
+  padding-bottom: 2em;
 }
 
 .host__section:last-of-type {
@@ -30,7 +32,7 @@
 }
 /* ARCHI SECTION  */
 .host__archiParent {
-  width: 38em;
+  width: 63em;
   margin: 0 auto;
 }
 
@@ -49,9 +51,9 @@
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 0.5rem;
+  font-size: 1rem;
   margin-bottom: 2px;
-  margin-left: -4px;
+  margin-left: -10px;
 }
 
 .host_archiArrow {
@@ -60,19 +62,26 @@
 }
 
 .host__NextBtn {
+  font-family: "Roboto Flex";
+  font-weight: 600;
   background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
-  border-radius: 4.5px;
+  border-radius: 9px;
   color: #fff;
-  font-size: 0.55rem;
-  padding: 5px 27px;
+  font-size: 0.9rem;
+  padding: 10.3px 27px;
+  width: 8rem;
   text-transform: uppercase;
   margin-top: 18px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
 }
 
 /* PROJECT NAME */
 .host__ProjectName {
   position: fixed;
-  z-index: 11;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -81,13 +90,14 @@
 }
 
 .host__ProjectName__inside {
-  padding-top: 1.4em;
+  padding-top: 2.4em;
+  padding-bottom: 2.2em;
   margin: 8em auto 0;
   background: rgba(255, 255, 255, 0.76);
   box-shadow: -12px 20px 35px rgb(0 0 0 / 13%);
   backdrop-filter: blur(17px);
   border-radius: 12px;
-  width: 14em;
+  width: 27em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,44 +107,46 @@
   font-family: "Lato", sans-serif;
   font-weight: 800;
   color: #4c4c4c;
-  font-size: 0.75rem;
-  margin-bottom: 6px;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
 }
 
 .host__Input {
-  padding: 6px 0;
-  width: 17em;
+  padding: 11.7px 0;
+  width: 18em;
 }
 
 .host__Input,
 .host__Input::placeholder {
   text-align: center;
-  font-size: 0.55rem;
+  font-size: 1.1rem;
   font-family: "Lato", sans-serif;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.19);
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 
 .host__ProjectName__inside button {
+  font-family: "Roboto Flex";
+  font-weight: 500;
   background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
-  border-radius: 4.5px;
+  border-radius: 9.5px;
   color: #fff;
-  font-size: 0.55rem;
-  padding: 5px 27px;
+  font-size: 1rem;
+  padding: 8px 42px;
   text-transform: uppercase;
-  margin-top: 9px;
-  margin-bottom: 7px;
+  margin-top: 17px;
+  margin-bottom: 12px;
 }
 
 .host__ProjectName__inside p:last-child {
   font-family: "Roboto Flex", sans-serif;
   color: #989898;
-  font-size: 0.6rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 

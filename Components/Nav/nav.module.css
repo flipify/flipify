@@ -1,9 +1,10 @@
 .nav {
-  width: 42em;
+  width: 63em;
   padding-bottom: 23px;
-  padding-top: 16px;
+  padding-top: 42px;
+  margin: 0 auto;
 }
 
 .nav img {
-  width: 3.5em;
+  width: 8em;
 }
