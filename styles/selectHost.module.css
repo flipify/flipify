@@ -42,8 +42,13 @@
 }
 
 .host__archiDetails {
+  flex: 90%;
   width: 39em;
   margin: 0 auto;
+}
+
+.host__archiDetails___DB {
+  flex: 40%;
 }
 
 .host__stack {
@@ -57,8 +62,8 @@
 }
 
 .host_archiArrow {
-  margin: 0 1em;
-  width: 5em;
+  margin: 0 2.5em;
+  width: 7em;
 }
 
 .host__NextBtn {
@@ -148,6 +153,50 @@
   color: #989898;
   font-size: 1rem;
   cursor: pointer;
+}
+
+/* HOST CARDS SECTION */
+.hostArchi__dbRow {
+  margin-bottom: 16px;
+}
+
+.hostArchi_Cards_DB:hover {
+  border: 2px solid rgba(115, 54, 230, 1);
+}
+
+.hostArchi_Cards_DB__active {
+  border: 2px solid rgba(115, 54, 230, 1);
+}
+
+.hostArchi_Cards_DB {
+  border: 2px solid transparent;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 12px 0;
+  padding-left: 13px;
+}
+
+.hostArchi__dbRow:last-of-type {
+  visibility: hidden;
+}
+
+.hostArchi_Cards_DB p {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.dbIco {
+  width: 1.2em;
+  margin-right: 6px;
 }
 
 /*

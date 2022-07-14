@@ -7,7 +7,7 @@ import archiDetails from "../Components/hostingProviders/hArchitecture/archiDeta
 import styles from "../styles/selectHost.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { HArchiArrow } from "../Components/SVG/Svgs";
+import { HArchiArrow, YesIco, NoIco } from "../Components/SVG/Svgs";
 import Nav from "../Components/Nav/Nav";
 
 function hostCard(prop) {
@@ -66,6 +66,7 @@ function SelectHost() {
                 </Container>
               </div>
               <HArchiArrow className={styles.host_archiArrow} />
+
               <div className={styles.host__archiDetails}>
                 <Container>
                   <p className={styles.host__stack}>Frontend</p>
@@ -73,10 +74,34 @@ function SelectHost() {
                 </Container>
               </div>
               <HArchiArrow className={styles.host_archiArrow} />
-              <div className={styles.host__archiDetails}>
+              <div
+                className={`${styles.host__archiDetails} ${styles.host__archiDetails___DB}`}
+              >
                 <Container>
                   <p className={styles.host__stack}>Database</p>
-                  <Row>{archiDetails.map(archiCard)}</Row>
+                  <Row>
+                    <div className={styles.hostArchi__dbRow}>
+                      <div
+                        className={`${styles.hostArchi_Cards_DB}`}
+                      >
+                        <YesIco className={styles.dbIco} /> <p>Yes</p>
+                      </div>
+                    </div>
+                    <div className={styles.hostArchi__dbRow}>
+                      <div
+                        className={`${styles.hostArchi_Cards_DB}`}
+                      >
+                        <NoIco className={styles.dbIco} /> <p>No</p>
+                      </div>
+                    </div>
+                    <div className={styles.hostArchi__dbRow}>
+                      <div
+                        className={`${styles.hostArchi_Cards_DB}`}
+                      >
+                        &nbsp;
+                      </div>
+                    </div>
+                  </Row>
                 </Container>
               </div>
             </div>
