@@ -43,8 +43,6 @@
 
 .host__archiDetails {
   flex: 90%;
-  width: 39em;
-  margin: 0 auto;
 }
 
 .host__archiDetails___DB {
@@ -58,7 +56,6 @@
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 2px;
-  margin-left: -10px;
 }
 
 .host_archiArrow {
@@ -76,7 +73,7 @@
   padding: 10.3px 27px;
   width: 8rem;
   text-transform: uppercase;
-  margin-top: 18px;
+  margin-top: 30px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   -ms-border-radius: 9px;
