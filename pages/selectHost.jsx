@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import HProviders from "../Components/hostingProviders/hostProviders/hProviders";
-import providersDetails from "../Components/hostingProviders/hostProviders/providersDetails";
+import providersDetails from "../Components/hostingProviders/hostProviders/ProvidersDetails";
 import HArchi from "../Components/hostingProviders/hArchitecture/hArchi";
 import archiDetails from "../Components/hostingProviders/hArchitecture/archiDetails";
 import styles from "../styles/selectHost.module.css";
@@ -81,23 +81,17 @@ function SelectHost() {
                   <p className={styles.host__stack}>Database</p>
                   <Row>
                     <div className={styles.hostArchi__dbRow}>
-                      <div
-                        className={`${styles.hostArchi_Cards_DB}`}
-                      >
+                      <div className={`${styles.hostArchi_Cards_DB}`}>
                         <YesIco className={styles.dbIco} /> <p>Yes</p>
                       </div>
                     </div>
                     <div className={styles.hostArchi__dbRow}>
-                      <div
-                        className={`${styles.hostArchi_Cards_DB}`}
-                      >
+                      <div className={`${styles.hostArchi_Cards_DB}`}>
                         <NoIco className={styles.dbIco} /> <p>No</p>
                       </div>
                     </div>
                     <div className={styles.hostArchi__dbRow}>
-                      <div
-                        className={`${styles.hostArchi_Cards_DB}`}
-                      >
+                      <div className={`${styles.hostArchi_Cards_DB}`}>
                         &nbsp;
                       </div>
                     </div>
