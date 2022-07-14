@@ -10,8 +10,7 @@ jobs:
 
       # ( Build to ./dist or other directory... )
       - name: Install Dependencies
-        run: pwd
-        run: ls
+        run: pwd && ls
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
