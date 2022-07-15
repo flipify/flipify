@@ -19,7 +19,7 @@ function CreateAProject() {
       <div className="gridContainer">
         <DashboardNav />
         <DashContent>
-          <h1>Put content for here</h1>
+          <h2>Create a New Project</h2>
         </DashContent>
       </div>
     </div>

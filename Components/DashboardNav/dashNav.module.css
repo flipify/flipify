@@ -72,8 +72,12 @@
   color: #624d9c;
 }
 
+.navLinks__routeFlex p {
+  margin-left: 12px;
+}
+
 .navLinks__routeFlex svg {
-  margin-right: 12px;
+  width: 1.03em;
 }
 
 .logoutBtn {
