@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
 }
 
 .dashboardParent img {
@@ -64,7 +64,6 @@
 .navLinks__routeFlex:hover {
   background: #7436e61a;
   color: #624d9c;
-  fill: #624d9c;
 }
 
 .navLinks__routeFlex:hover svg path {

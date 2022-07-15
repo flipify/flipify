@@ -1,5 +1,4 @@
 .containerParent {
-  
   margin: 0 auto;
   text-align: center;
 }
@@ -61,15 +60,9 @@
 }
 
 .host__NextBtn {
-  font-family: "Roboto Flex";
-  font-weight: 600;
-  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
   border-radius: 9px;
-  color: #fff;
   font-size: 0.9rem;
-  padding: 10.3px 27px;
   width: 8rem;
-  text-transform: uppercase;
   margin-top: 30px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
