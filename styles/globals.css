@@ -6,8 +6,11 @@ body {
   margin: 0;
   color: #323232;
   background-color: #fff;
-  overflow-x: hidden;
   font-size: 1em;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 a {
@@ -47,6 +50,23 @@ textarea {
 button {
   outline: none;
   border: none;
+}
+
+.bgContainer {
+  background-image: url(../public/BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dashContainer__Parent {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gridContainer {
+  display: flex;
+  height: 100%;
 }
 
 /*

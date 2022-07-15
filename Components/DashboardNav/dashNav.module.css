@@ -1,1 +1,94 @@
-.dashboardParent {}
+.dashboardParent {
+  overflow-y: auto;
+  width: 21em;
+  padding-top: 3em;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.dashboardParent img {
+  width: 6.8em;
+  margin-bottom: 15px;
+}
+
+.dashContent {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.dashboard__menuBtn {
+  font-family: "Lato";
+  font-weight: 700 !important;
+  background: transparent !important;
+  color: rgba(66, 66, 66, 0.74);
+  margin-bottom: 21px;
+}
+
+.dashboard__menuBtn:hover {
+  background: #7436e61a !important;
+  color: #624d9c;
+}
+
+.dashboard__menuBtnItem:active,
+.dashboard__menuBtnItem[data-active],
+.dashboard__menuBtnItem:focus,
+.dashboard__menuBtnItem[data-focus] {
+  font-family: "Lato";
+  background: #7436e61a !important;
+  color: #624d9c;
+}
+
+.menuArrowDown {
+  width: 0.8em;
+}
+
+.navLinks__routeFlex {
+  font-family: "Lato";
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 12px;
+  padding: 10px 51px 10px 14px;
+  cursor: pointer;
+  color: rgba(120, 112, 130, 0.6);
+  align-items: center;
+}
+
+.navLinks__routeFlex:hover {
+  background: #7436e61a;
+  color: #624d9c;
+  fill: #624d9c;
+}
+
+.navLinks__routeFlex:hover svg path {
+  fill: #624d9c;
+  color: #624d9c;
+}
+
+.navLinks__routeFlex svg {
+  margin-right: 12px;
+}
+
+.logoutBtn {
+  margin-top: 21em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e42b1e;
+}
+
+.logoutBtn svg {
+  margin-right: 10px;
+}
+
+.logoutBtn p {
+  font-family: "Lato";
+  font-weight: 600;
+}

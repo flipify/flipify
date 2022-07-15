@@ -1,8 +1,5 @@
 .containerParent {
-  background-image: url(../public/BG.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
   margin: 0 auto;
   text-align: center;
 }
