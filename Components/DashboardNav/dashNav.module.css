@@ -95,3 +95,9 @@
   font-family: "Lato";
   font-weight: 600;
 }
+
+@media (max-width: 767px) {
+  .dashboardParent {
+    display: none;
+  }
+}
