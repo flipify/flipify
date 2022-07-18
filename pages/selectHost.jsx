@@ -77,7 +77,9 @@ function SelectHost() {
                   <Row>{archiDetails.map(archiCard)}</Row>
                 </Container>
               </div>
-              <HArchiArrow className={styles.host_archiArrow} />
+              <HArchiArrow
+                className={`${styles.host_archiArrow} ${styles.host_archiArrow2_FlexEdit}`}
+              />
               <div
                 className={`${styles.host__archiDetails} ${styles.host__archiDetails___DB}`}
               >

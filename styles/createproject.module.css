@@ -16,10 +16,11 @@
 .createProject__Parent_Name {
   border: 2px solid transparent !important;
   height: 2.7em !important;
+  padding-left: 0.9em !important;
   margin-bottom: 0.7em;
   font-family: "Lato";
   font-weight: 500;
-  color: rgba(129, 129, 129, 0.837);
+  color: #4c4c4c;
   width: 17em !important;
   background: #ffffff !important;
   box-shadow: -1px 6px 25px -1px rgb(0 0 0 / 6%);
@@ -46,6 +47,7 @@
 }
 
 .createProject__SelectRepo {
+  padding-left: 0.9em !important;
   border: 2px solid transparent !important;
   height: 2.7em !important;
   width: 17em !important;
@@ -72,4 +74,17 @@
   font-size: 1rem;
   width: 11rem;
   margin-top: 30px;
+}
+
+@media (max-width: 1020px) {
+  .createProject__Parent h2 {
+    font-size: 1.7rem;
+  }
+
+  .createProject__Parent_Name,
+  .createProject__SelectRepo {
+    height: 2.5em !important;
+    width: 16em !important;
+    font-size: 1.4rem !important;
+  }
 }
