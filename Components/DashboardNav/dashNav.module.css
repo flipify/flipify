@@ -31,6 +31,10 @@
   margin-bottom: 21px;
 }
 
+.dashboard__menuBtn:focus-visible {
+  box-shadow: none !important;
+}
+
 .dashboard__menuBtn:hover {
   background: #7436e61a !important;
   color: #624d9c;
@@ -96,8 +100,36 @@
   font-weight: 600;
 }
 
+.navOpenIcon {
+  display: none !important;
+}
+
+.dashboardParent__Mobile {
+  width: unset;
+  padding-top: 3em;
+  background-color: rgba(255, 255, 255, 0);
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
 @media (max-width: 767px) {
   .dashboardParent {
     display: none;
+  }
+
+  .dashboardParent__Mobile {
+    display: flex;
+  }
+
+  .navOpenIcon {
+    display: block !important;
+    margin-left: 1.4em;
+    font-size: 2.2em;
+    margin-top: 0.5em;
   }
 }

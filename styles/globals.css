@@ -102,6 +102,12 @@ button {
   }
 }
 
+@media (max-width: 767px) {
+  .gridContainer {
+    display: block;
+  }
+}
+
 @media (max-width: 575px) {
   html {
     font-size: 0.8em;

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import DashboardNav from "../Components/DashboardNav/DashboardNav";
+import DashboardNavMobile from "../Components/DashboardNav/DashboardNavMobile";
 import DashContent from "../Components/DashboardNav/DashContent";
 import { Input } from "@chakra-ui/react";
 import { Select } from "@chakra-ui/react";
@@ -42,6 +43,7 @@ function CreateAProject() {
       <div>&nbsp;</div>
       <div className="gridContainer">
         <DashboardNav />
+        <DashboardNavMobile />
         <DashContent>
           <div className={styles.createProject__Parent}>
             <h2>Create a New Project</h2>
@@ -52,9 +54,7 @@ function CreateAProject() {
             <div className="createProject__SelectWrapper">
               <Select
                 className={styles.createProject__SelectRepo}
-                icon={
-                  <ProjectsArrowDown />
-                }
+                icon={<ProjectsArrowDown />}
                 iconSize="1em"
                 onChange={(e) => {
                   setValue(e.target.value);
