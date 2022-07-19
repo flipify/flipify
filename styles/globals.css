@@ -9,7 +9,12 @@ body {
   font-size: 1em;
 }
 
+div#__next {
+  height: 100%;
+}
+
 body {
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -53,6 +58,8 @@ button {
 }
 
 .bgContainer {
+  overflow-x: hidden;
+  min-height: 100%;
   background-image: url(../public/BG.png);
   background-size: cover;
   background-position: center;
@@ -67,6 +74,50 @@ button {
 .gridContainer {
   display: flex;
   height: 100%;
+}
+
+.nextBtn {
+  font-family: "Roboto Flex";
+  font-weight: 600;
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
+  border-radius: 9px;
+  color: #fff;
+  padding: 11.3px 0;
+  text-transform: uppercase;
+}
+
+.createProject__SelectWrapper .chakra-select__icon-wrapper.css-bwconc {
+  right: 1.8em;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 0.87em;
+  }
+}
+
+@media (max-width: 767px) {
+  .gridContainer {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 398px) {
+  html {
+    font-size: 0.75em;
+  }
 }
 
 /*

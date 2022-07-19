@@ -8,3 +8,61 @@
 .nav img {
   width: 8em;
 }
+
+@media (max-width: 1200px) {
+  .nav {
+    width: 60em;
+  }
+}
+
+@media (max-width: 1060px) {
+  .nav {
+    width: 56em;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav {
+    width: 49em;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    width: 38em;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav {
+    width: 30em;
+  }
+
+  .nav img {
+    width: 7em;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav {
+    width: 28em;
+  }
+}
+
+@media (max-width: 398px) {
+  .nav {
+    width: 27em;
+  }
+}
+
+@media (max-width: 398px) {
+  .nav {
+    width: 27em;
+  }
+}
+
+@media (max-width: 334px) {
+  .nav {
+    width: 24em;
+  }
+}

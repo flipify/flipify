@@ -1,0 +1,91 @@
+.createProject__Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7.5em;
+}
+
+.createProject__Parent h2 {
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 2rem;
+  color: #323232;
+  margin-bottom: 0.65em;
+}
+
+.createProject__Parent_Name {
+  border: 2px solid transparent !important;
+  height: 2.7em !important;
+  padding-left: 0.9em !important;
+  margin-bottom: 0.7em;
+  font-family: "Lato";
+  font-weight: 500;
+  color: #4c4c4c;
+  width: 17em !important;
+  background: #ffffff !important;
+  box-shadow: -1px 6px 25px -1px rgb(0 0 0 / 6%);
+  border-radius: 20px !important;
+  font-size: 1.5rem !important;
+}
+
+.createProject__Parent_Name:focus-visible,
+.createProject__Parent_Name:focus-visible[data-focus-visible],
+.createProject__Parent_Name:hover,
+.createProject__SelectRepo:hover,
+.createProject__SelectRepo:focus-visible {
+  outline: none;
+  box-shadow: -1px 6px 25px -1px rgb(0 0 0 / 6%) !important;
+  border: 2px solid #624d9c !important;
+}
+
+.createProject__Parent_Name::placeholder,
+.createProject__SelectRepo::placeholder {
+  font-family: "Lato";
+  font-weight: 500;
+  color: rgba(129, 129, 129, 0.31) !important;
+  font-size: 1.4rem;
+}
+
+.createProject__SelectRepo {
+  padding-left: 0.9em !important;
+  border: 2px solid transparent !important;
+  height: 2.7em !important;
+  width: 17em !important;
+  font-family: "Lato";
+  font-weight: 500;
+  color: rgba(129, 129, 129, 0.837);
+  background: #ffffff !important;
+  box-shadow: -1px 6px 25px -1px rgb(0 0 0 / 6%);
+  border-radius: 20px !important;
+  font-size: 1.5rem !important;
+}
+
+.createProject__SelectRepo .chakra-select__icon-wrapper.css-bwconc {
+  right: 1.8em !important;
+}
+
+.createProject__NextBtn {
+  font-size: 1rem;
+  width: 9.5rem;
+  margin-top: 30px;
+}
+
+.createProject__AddGitBtn {
+  font-size: 1rem;
+  width: 11rem;
+  margin-top: 30px;
+}
+
+@media (max-width: 1020px) {
+  .createProject__Parent h2 {
+    font-size: 1.7rem;
+  }
+
+  .createProject__Parent_Name,
+  .createProject__SelectRepo {
+    height: 2.5em !important;
+    width: 16em !important;
+    font-size: 1.4rem !important;
+  }
+}
+

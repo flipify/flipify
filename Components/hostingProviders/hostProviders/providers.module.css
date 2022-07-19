@@ -26,6 +26,26 @@
 }
 
 .col_no_padding {
-  /* padding: 0 16px 0 0; */
   margin-bottom: 16px;
+}
+
+.col_no_padding:last-of-type,
+.col_no_padding:nth-last-of-type(2) {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1060px) {
+  .hostPro_Cards img {
+    width: 9.5em !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hostPro_Cards img {
+    width: 8.3em !important;
+  }
+
+  .hostPro_Cards {
+    padding: 15px 0;
+  }
 }

@@ -1,5 +1,4 @@
 .containerParent {
-  
   margin: 0 auto;
   text-align: center;
 }
@@ -14,7 +13,6 @@
 }
 
 .hostParent {
-  /* width: 38em; */
   width: 63em;
   margin: 0 auto;
 }
@@ -61,15 +59,9 @@
 }
 
 .host__NextBtn {
-  font-family: "Roboto Flex";
-  font-weight: 600;
-  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
   border-radius: 9px;
-  color: #fff;
   font-size: 0.9rem;
-  padding: 10.3px 27px;
   width: 8rem;
-  text-transform: uppercase;
   margin-top: 30px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -193,6 +185,195 @@
   margin-right: 6px;
 }
 
+@media (max-width: 1200px) {
+  .hostParent,
+  .host__archiParent {
+    width: 60em;
+  }
+}
+
+@media (max-width: 1060px) {
+  .hostParent,
+  .host__archiParent {
+    width: 56em;
+  }
+
+  .selectHost_dbIco {
+    width: 1.14em;
+  }
+
+  .host_archiArrow {
+    margin: 0 2em;
+  }
+
+  .host__NextBtn {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .containerParent h2 {
+    font-size: 2.5rem;
+  }
+
+  .host__archiFlex {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+
+  .host_archiArrow {
+    margin: 0 1em;
+  }
+
+  .hostArchi_Cards_DB {
+    padding: 9px 0;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .containerParent h2 {
+    font-size: 2.2rem;
+  }
+
+  .containerParent h2 {
+    margin-bottom: 27px;
+  }
+
+  .hostParent,
+  .host__archiParent {
+    width: 39em;
+  }
+
+  .nav {
+    width: 37em;
+  }
+
+  .host__archiFlex {
+    flex-wrap: wrap;
+  }
+
+  .host__archiDetails {
+    flex: 25% 1;
+  }
+
+  .host_archiArrow {
+    margin: 0 0.5em;
+    width: 3em;
+  }
+
+  .host_archiArrow2_FlexEdit {
+    flex: 100%;
+    margin: 22px 0;
+    transform: rotate(90deg);
+    height: 1.15em;
+  }
+
+  .host__archiDetails___DB {
+    flex: 23% 0;
+    margin: 0 auto;
+    margin-bottom: -5.5em;
+  }
+}
+
+@media (max-width: 575px) {
+  .host__section {
+    padding-bottom: 2em;
+  }
+
+  .containerParent h2 {
+    padding: 0 2em;
+  }
+
+  .host__archiDetails,
+  .hostParent {
+    width: 32em;
+  }
+
+  .host__archiParent {
+    width: 100%;
+  }
+
+  .host__archiDetails {
+    flex: 100% 1;
+  }
+
+  .host_archiArrow {
+    flex: 100% 1;
+    margin: 22px 0;
+    transform: rotate(90deg);
+    margin: 29px 0 20px;
+    width: 2.4em;
+  }
+
+  .host__archiFlex {
+    flex-direction: column;
+  }
+
+  .host__archiDetails {
+    width: 32em;
+  }
+
+  .host__archiDetails___DB {
+    width: 8em;
+  }
+
+  .hostArchi_Cards_DB {
+    padding: 7px 0;
+    padding-left: 10px;
+    border-radius: 11px;
+  }
+
+  .host__NextBtn {
+    width: 9rem;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .containerParent h2 {
+    padding: 0 1em;
+  }
+
+  .host__archiDetails,
+  .hostParent {
+    width: 28em;
+  }
+
+  .host__archiDetails___DB {
+    width: 9em;
+  }
+}
+
+@media (max-width: 398px) {
+  .containerParent h2 {
+    padding: 0 0.5em;
+  }
+
+  .host__archiDetails,
+  .hostParent {
+    width: 27em;
+  }
+
+  .host__archiDetails___DB {
+    width: 8em;
+  }
+}
+
+@media (max-width: 336px) {
+  .containerParent h2 {
+    padding: 0 0.2em;
+  }
+
+  .host__archiDetails,
+  .hostParent {
+    width: 24em;
+  }
+
+  .host__archiDetails___DB {
+    width: 7em;
+  }
+}
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
