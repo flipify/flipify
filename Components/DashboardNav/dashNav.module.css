@@ -29,7 +29,14 @@
 
 .dashboardParent img {
   width: 6.8em;
-  margin-bottom: 15px;
+  margin-bottom: 2.7em;
+}
+
+.dashMobNav__Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .dashContent {
@@ -52,11 +59,19 @@
 }
 
 .dashboard__menuBtn {
+  top: 2em;
+  right: 8em;
+  float: right;
   font-family: "Lato";
   font-weight: 700 !important;
   background: transparent !important;
   color: rgba(66, 66, 66, 0.74);
   margin-bottom: 21px;
+}
+
+.dashContent__Avatar img {
+  transform: scale(0.9);
+  margin-left: 10px;
 }
 
 .dashboard__menuBtn:focus-visible {
@@ -174,10 +189,18 @@
   .logoutBtn {
     padding-bottom: 4em;
   }
-
-  .dashboard__menuBtn, .dashboard__menuBtn:hover {
-    padding: 1.3em 1em;
 }
+
+@media (max-width: 1390px) {
+  .dashboard__menuBtn {
+    right: 5em;
+  }
+}
+
+@media (max-width: 1080px) {
+  .dashboard__menuBtn {
+    right: 3em;
+  }
 }
 
 @media (max-width: 767px) {
