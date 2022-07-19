@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/docs/*"
+from = "docs/*"
 to = "https://flipifydocs.netlify.app/:splat"
 status = 200
 force = false
