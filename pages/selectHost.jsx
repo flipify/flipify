@@ -8,7 +8,7 @@ import styles from "../styles/selectHost.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { HArchiArrow, YesIco, NoIco } from "../Components/SVG/Svgs";
-import Nav from "./api/Nav";
+import Nav from "../Components/Nav/Nav";
 
 function hostCard(prop) {
   return <HProviders key={prop.id} image={prop.image} />;
