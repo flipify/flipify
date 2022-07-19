@@ -107,6 +107,15 @@ button {
   right: 1.8em;
 }
 
+.mobAvatar {
+  display: none !important;
+}
+
+.DeskAvatar .css-xl71ch {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 0.9em;
@@ -122,6 +131,20 @@ button {
 @media (max-width: 767px) {
   .gridContainer {
     display: block;
+  }
+
+  .DeskAvatar {
+    display: none !important;
+  }
+
+  .mobAvatar {
+    display: flex !important;
+    float: none !important;
+  }
+
+  .mobAvatar .css-xl71ch {
+    display: flex !important;
+    align-items: center;
   }
 }
 
