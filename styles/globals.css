@@ -18,6 +18,23 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e8e8ecb;
+  border-radius: 72px;
+  -webkit-border-radius: 72px;
+  -moz-border-radius: 72px;
+  -ms-border-radius: 72px;
+  -o-border-radius: 72px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;

@@ -1,16 +1,30 @@
 .dashboardParent {
-  overflow-y: auto;
+  height: 100%;
   width: 21em;
   padding-top: 3em;
   background-color: rgba(255, 255, 255, 0.75);
+
+  border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+}
+
+.dashParent__Inner {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 28px;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  -ms-border-radius: 28px;
-  -o-border-radius: 28px;
+  mask-image: linear-gradient(to top, transparent, #1b1b1b),
+    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
+  mask-size: 100% 20000px;
+  mask-position: left bottom;
+  -webkit-mask-image: linear-gradient(to top, transparent, #1b1b1b),
+    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
+  -webkit-mask-size: 100% 20000px;
+  -webkit-mask-position: left bottom;
+  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+  overflow-y: scroll;
 }
 
 .dashboardParent img {
@@ -19,8 +33,22 @@
 }
 
 .dashContent {
+  height: 100%;
   width: 100%;
   overflow-y: auto;
+  mask-image: linear-gradient(to top, transparent, #1b1b1b),
+    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
+  mask-size: 100% 20000px;
+  mask-position: left bottom;
+  -webkit-mask-image: linear-gradient(to top, transparent, #1b1b1b),
+    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
+  -webkit-mask-size: 100% 20000px;
+  -webkit-mask-position: left bottom;
+  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+.dashContent:hover,
+.dashParent__Inner:hover {
+  -webkit-mask-position: left top;
 }
 
 .dashboard__menuBtn {
@@ -84,6 +112,7 @@
 }
 
 .logoutBtn {
+  padding: 10px 51px 10px 14px;
   margin-top: 21em;
   display: flex;
   align-items: center;
@@ -117,43 +146,39 @@
   -o-border-radius: 0;
 }
 
-
-.chatMessages {
-  position: relative;
-  height: 82%;
-  bottom: 0;
-  overflow-y: scroll;
-  mask-image: linear-gradient(to top, transparent, #1b1b1b),
-    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
-  mask-size: 100% 20000px;
-  mask-position: left bottom;
-  -webkit-mask-image: linear-gradient(to top, transparent, #1b1b1b),
-    linear-gradient(to left, transparent 17px, #1b1b1b 17px);
-  -webkit-mask-size: 100% 20000px;
-  -webkit-mask-position: left bottom;
-  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+@media (max-height: 830px) {
+  .logoutBtn {
+    margin-top: 13em;
+  }
 }
 
-.chatMessages:hover {
-  -webkit-mask-position: left top;
+@media (max-height: 680px) {
+  .logoutBtn {
+    margin-top: 9em;
+  }
 }
 
-.chatMessages::-webkit-scrollbar {
-  width: 5px;
+@media (max-height: 600px) {
+  .logoutBtn {
+    margin-top: 5em;
+  }
 }
 
-.chatMessages::-webkit-scrollbar-thumb {
-  background: #3c3c3e;
-  border-radius: 72px;
-  -webkit-border-radius: 72px;
-  -moz-border-radius: 72px;
-  -ms-border-radius: 72px;
-  -o-border-radius: 72px;
-}
-.chatMessages::-webkit-scrollbar-track {
-  background: transparent !important;
+@media (max-height: 540px) {
+  .logoutBtn {
+    margin-top: 3em;
+  }
 }
 
+@media (max-height: 498px) {
+  .logoutBtn {
+    padding-bottom: 4em;
+  }
+
+  .dashboard__menuBtn, .dashboard__menuBtn:hover {
+    padding: 1.3em 1em;
+}
+}
 
 @media (max-width: 767px) {
   .dashboardParent {
