@@ -60,7 +60,7 @@ button {
 .bgContainer {
   overflow-x: hidden;
   min-height: 100%;
-  background-image: url(../public/BG.png);
+  background-image: url(/BG.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
