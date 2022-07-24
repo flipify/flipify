@@ -31,7 +31,7 @@ function PanelCards({ id, styles, serverStatus, image, fe, be, db }) {
         className={`${styles.panel_CurHostCard} ${styles.panel_ArchiCard}`}
       >
         <div className={styles.panel_CurHostCard__Inner}>
-          <div className={styles.panel_CurHostCard__Col1}>
+          <div>
             <div className={styles.panel__altHostImg_Div}>
               <img src={image} alt="host icon" />
             </div>

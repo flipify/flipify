@@ -20,10 +20,10 @@ function DashboardNav() {
           <DashLink
             Svg={<CreateProjectIco />}
             Name={"Create Project"}
-            to="createAProject"
+            to="/createAProject"
           />
-          <DashLink Svg={<DeployLogsIco />} Name={"Deploy Logs"} to="" />
-          <DashLink Svg={<DocsIco />} Name={"Documentation"} to="" />
+          <DashLink Svg={<DeployLogsIco />} Name={"Deploy Logs"} to="/" />
+          <DashLink Svg={<DocsIco />} Name={"Documentation"} to="/" />
           <div className={styles.logoutBtn}>
             <LogoutIco /> <p>Log out</p>
           </div>

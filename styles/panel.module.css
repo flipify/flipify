@@ -191,7 +191,7 @@
 }
 
 .panel__altHostImg_Div img {
-  width: 10em;
+  max-width: 7.5em;
 }
 
 .panel_AltHost_ArchiIcos {
@@ -218,4 +218,81 @@
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   -o-transform: rotate(30deg);
+}
+
+@media (max-width: 1240px) {
+  .panel__Parent {
+    padding: 0 2em;
+  }
+}
+
+@media (max-width: 1180px) {
+  .panel_AltHostDivCol {
+    width: 17em;
+  }
+
+  .panel_CurHostCard__Inner {
+    margin: 0 16px 0 19px;
+  }
+
+  .panel_AltHost_ArchiIcos svg {
+    width: 1.2em;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .panel__Parent {
+    padding-bottom: 2em;
+  }
+
+  .panel_AltCards_Div {
+    width: 49em;
+  }
+}
+
+@media (max-width: 767px) {
+  .panel__Parent {
+    padding: 0 3.5em;
+    padding-bottom: 15em;
+  }
+}
+
+@media (max-width: 596px) {
+  .panel_ArchiDiv {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 537px) {
+  .panel_currentHost_ArchiDiv {
+    height: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 17em;
+  }
+
+  .panel_ArchiDiv {
+    margin-top: 2em;
+  }
+  .panel_AltParent {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 514px) {
+  .panel_AltCards_Div {
+    width: 32em;
+  }
+
+  .panel_AltHostDivCol {
+    width: 19em;
+  }
+
+  .panel_AltParent h3,
+  .panel_currentHost_ArchiDiv h3 {
+    margin-bottom: 0.6em;
+  }
 }
