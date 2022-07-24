@@ -1,0 +1,221 @@
+.panel__Parent {
+  margin-top: 4em;
+  padding: 0 5em;
+}
+
+.panel__Parent h2 {
+  font-family: "Lato";
+  font-weight: 900;
+  color: #4c4c4c;
+  font-size: 2rem;
+  margin-bottom: 1.3em;
+}
+
+.panel_CurHostCard {
+  box-shadow: 15.6163px 5.8561px 42.9448px rgba(0, 0, 0, 0.13);
+}
+
+.panel_CurHostCard__Inner {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px 0 24px;
+}
+
+.panel_CurHostCard__Col1 img {
+  width: 8.5em;
+}
+
+.panel__CurHostCard_ServerStats {
+  margin: 0.5em 0;
+}
+
+.panel__CurHostCard_ServerStats p {
+  color: #595959;
+  font-size: 0.78rem;
+  width: 12em;
+}
+
+.panel__CurHostCard_ServerStats p span {
+  color: #58b836;
+  font-weight: 600;
+}
+
+.panel__CurHostCard_MoreServerStats {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(79, 66, 196, 0.85) 0%,
+    rgba(115, 54, 230, 0.85) 100%
+  );
+  color: #fff;
+  width: max-content;
+  padding: 4px 11px 3px 8px;
+  align-items: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.panel__CurHostCard_MoreServerStats svg {
+  width: 1.05em;
+}
+
+.panel__CurHostCard_MoreServerStats p {
+  margin-left: 6px;
+  font-size: 0.9rem;
+}
+
+.panel_CurHostCard__Col2 {
+  display: flex;
+  align-items: center;
+  height: 2.3em;
+  margin-left: 0px;
+}
+
+.panel_CurHostCard__Col2 svg {
+  width: 1.05em;
+}
+
+.panel_CurHostCard__Col2 p {
+  font-weight: 500;
+  margin-left: 4px;
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.panel_ArchiDiv {
+  margin-left: 1.5em;
+}
+
+.panel_currentHost_ArchiDiv {
+  height: 8.5em;
+  display: flex;
+}
+
+.panel_currentHost_ArchiDiv h3 {
+  font-weight: 600;
+  color: #323232;
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+}
+
+.panel_ArchiCard {
+  display: flex;
+  font-family: "Lato";
+  background: rgba(255, 255, 255, 0.71);
+  mix-blend-mode: normal;
+  border: none;
+  border-radius: 19px;
+  justify-content: center;
+  padding: 20px 0 14px;
+}
+
+.panel_ArchiCard__Inner {
+  margin: 0 45px 0 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.panel_ArchiCard__contentParent {
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel_ArchiCard__contentParent:first-of-type {
+  align-items: center;
+}
+
+.panel_ArchiCard__contentParent svg {
+  margin: 5.8px 0;
+}
+
+.panel_ArchiCard__contentParent p {
+  color: #b8adc9;
+  font-size: 1.02rem;
+  margin: 3px 0;
+}
+
+.panel_ArchiCard__contentParent:last-of-type p {
+  color: #5042c4;
+  font-weight: 700;
+}
+
+.panel_ArchiCard__titleWico {
+  display: flex;
+}
+
+/* ALTERNATIVE HOST */
+.panel_AltParent {
+  margin-top: 5.5em;
+  font-family: "Lato";
+}
+
+.panel_AltParent h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #323232;
+  margin-bottom: 1.3em;
+}
+
+.panel_AltHostDivCol {
+  width: 18em;
+  margin-bottom: 22px;
+}
+
+.panel_AltCards_Div {
+  width: 54em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.panel_AltHostCard__Col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 5em;
+}
+
+.panel__altHostImg_Div {
+  height: 2em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.panel__altHostImg_Div img {
+  width: 10em;
+}
+
+.panel_AltHost_ArchiIcos {
+  display: flex;
+  align-items: center;
+}
+
+.panel_AltHost_ArchiIcos svg {
+  width: 1.3em;
+  margin-right: 9px;
+}
+
+.dataBaseIco {
+  width: 0.9em !important;
+}
+
+.panel_AltHost_ArchiIcos svg:last-of-type {
+  margin-right: 0;
+}
+
+.backendIco {
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+}

@@ -116,6 +116,11 @@ button {
   align-items: center;
 }
 
+.switch .css-rbly5d[aria-checked="true"],
+.switch .css-rbly5d[data-checked] {
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%) !important;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 0.9em;

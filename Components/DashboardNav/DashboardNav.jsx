@@ -16,10 +16,14 @@ function DashboardNav() {
       <div className={styles.dashParent__Inner}>
         <img src="/logo.png" alt="logo" />
         <div className={styles.navLinks__Parent}>
-          <DashLink Svg={<PanelIco />} Name={"Panel"} />
-          <DashLink Svg={<CreateProjectIco />} Name={"Create Project"} />
-          <DashLink Svg={<DeployLogsIco />} Name={"Deploy Logs"} />
-          <DashLink Svg={<DocsIco />} Name={"Documentation"} />
+          <DashLink Svg={<PanelIco />} Name={"Panel"} to="/panel" />
+          <DashLink
+            Svg={<CreateProjectIco />}
+            Name={"Create Project"}
+            to="createAProject"
+          />
+          <DashLink Svg={<DeployLogsIco />} Name={"Deploy Logs"} to="" />
+          <DashLink Svg={<DocsIco />} Name={"Documentation"} to="" />
           <div className={styles.logoutBtn}>
             <LogoutIco /> <p>Log out</p>
           </div>
