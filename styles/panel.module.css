@@ -41,6 +41,7 @@
 }
 
 .panel__CurHostCard_MoreServerStats {
+  cursor: pointer;
   display: flex;
   background: linear-gradient(
     90deg,
@@ -71,7 +72,7 @@
   display: flex;
   align-items: center;
   height: 2.3em;
-  margin-left: 0px;
+  margin-left: 5px;
 }
 
 .panel_CurHostCard__Col2 svg {
@@ -105,7 +106,6 @@
 }
 
 .panel_ArchiCard {
-  display: flex;
   font-family: "Lato";
   background: rgba(255, 255, 255, 0.71);
   mix-blend-mode: normal;
@@ -190,8 +190,8 @@
   align-items: flex-end;
 }
 
-.panel__altHostImg_Div img {
-  max-width: 7.5em;
+.panel__altHostImg_Div svg {
+  max-width: 90%;
 }
 
 .panel_AltHost_ArchiIcos {
@@ -218,6 +218,40 @@
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   -o-transform: rotate(30deg);
+}
+
+/* GRAPH SECTION */
+.panel_graphModal_H3 {
+  font-family: "Lato";
+  font-weight: 700;
+  color: #4c4c4c;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  margin-bottom: -20px;
+}
+
+.panel_GraphFlex {
+  display: flex;
+  align-items: center;
+  margin-left: -17px;
+}
+
+.panel_graphModal_P1,
+.panel_graphModal_P {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 600;
+  color: #6f6f6f;
+  margin-top: 5px;
+}
+.panel_graphModal_P1 {
+  flex: 10%;
+}
+.panel_graphModal_P {
+  text-align: center;
+}
+.panel_graphModal_GraphDiv {
+  flex: 90%;
 }
 
 @media (max-width: 1240px) {

@@ -121,6 +121,15 @@ button {
   background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%) !important;
 }
 
+.graphModal {
+  padding: 37px 10px;
+  background: rgba(255, 255, 255, 0.75) !important;
+  box-shadow: -12px 20px 35px rgb(0 0 0 / 13%) !important;
+  backdrop-filter: blur(4px);
+  border-radius: 28px !important;
+  max-width: 50em !important;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 0.9em;
@@ -151,6 +160,16 @@ button {
     display: flex !important;
     align-items: center;
   }
+
+  .graphModal {
+    max-width: 46rem !important;
+    padding: 20px 10px;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
 }
 
 @media (max-width: 575px) {
