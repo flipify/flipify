@@ -1,7 +1,7 @@
 const panelDetails = [
   {
     id: 1,
-    image: "/Host img/DigitalOcean_logo.png",
+    image: "/DigitalOcean.svg",
     serverStatus: "Operational",
     fe: true,
     be: true,
@@ -9,7 +9,7 @@ const panelDetails = [
   },
   {
     id: 2,
-    image: "/Heroku_logo.png",
+    image: "/DigitalOcean.svg",
     serverStatus: "Downtime",
     fe: true,
     be: true,
@@ -17,7 +17,7 @@ const panelDetails = [
   },
   {
     id: 3,
-    image: "/Cloudflare.png",
+    image: "/Cloudflare.svg",
     serverStatus: "Downtime",
     fe: true,
     be: true,
@@ -25,7 +25,7 @@ const panelDetails = [
   },
   {
     id: 4,
-    image: "/aws.png",
+    image: "/aws.svg",
     serverStatus: "Downtime",
     fe: true,
     be: true,
@@ -33,7 +33,7 @@ const panelDetails = [
   },
   {
     id: 5,
-    image: "/azure.png",
+    image: "/DigitalOcean.svg",
     serverStatus: "Downtime",
     fe: true,
     be: false,
@@ -41,7 +41,7 @@ const panelDetails = [
   },
   {
     id: 6,
-    image: "/azure.png",
+    image: "/azure.svg",
     serverStatus: "Downtime",
     fe: true,
     be: false,
