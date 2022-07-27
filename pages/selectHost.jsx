@@ -20,7 +20,7 @@ function archiCard(prop) {
 
 function SelectHost() {
   useEffect(() => {
-    document.body.style.overflow = "scroll";
+    document.body.style.overflowY = "auto";
   }, []);
 
   const [toggleNext, setToggleNext] = useState(false);
@@ -77,7 +77,9 @@ function SelectHost() {
                   <Row>{archiDetails.map(archiCard)}</Row>
                 </Container>
               </div>
-              <HArchiArrow className={styles.host_archiArrow} />
+              <HArchiArrow
+                className={`${styles.host_archiArrow} ${styles.host_archiArrow2_FlexEdit}`}
+              />
               <div
                 className={`${styles.host__archiDetails} ${styles.host__archiDetails___DB}`}
               >
@@ -105,7 +107,7 @@ function SelectHost() {
             </div>
             <button
               onClick={() => setToggleNext(true)}
-              className={styles.host__NextBtn}
+              className={`${styles.host__NextBtn} nextBtn`}
             >
               Next
             </button>

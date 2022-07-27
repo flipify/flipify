@@ -9,8 +9,30 @@ body {
   font-size: 1em;
 }
 
+div#__next {
+  height: 100%;
+}
+
 body {
+  height: 100vh;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e8e8ecb;
+  border-radius: 72px;
+  -webkit-border-radius: 72px;
+  -moz-border-radius: 72px;
+  -ms-border-radius: 72px;
+  -o-border-radius: 72px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
 }
 
 a {
@@ -53,7 +75,9 @@ button {
 }
 
 .bgContainer {
-  background-image: url(../public/BG.png);
+  overflow-x: hidden;
+  min-height: 100%;
+  background-image: url(/BG.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,6 +91,78 @@ button {
 .gridContainer {
   display: flex;
   height: 100%;
+}
+
+.nextBtn {
+  font-family: "Roboto Flex";
+  font-weight: 600;
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
+  border-radius: 9px;
+  color: #fff;
+  padding: 11.3px 0;
+  text-transform: uppercase;
+}
+
+.createProject__SelectWrapper .chakra-select__icon-wrapper.css-bwconc {
+  right: 1.8em;
+}
+
+.mobAvatar {
+  display: none !important;
+}
+
+.DeskAvatar .css-xl71ch {
+  display: flex;
+  align-items: center;
+}
+
+.switch .css-rbly5d[aria-checked="true"],
+.switch .css-rbly5d[data-checked] {
+  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%) !important;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 0.87em;
+  }
+}
+
+@media (max-width: 767px) {
+  .gridContainer {
+    display: block;
+  }
+
+  .DeskAvatar {
+    display: none !important;
+  }
+
+  .mobAvatar {
+    display: flex !important;
+    float: none !important;
+  }
+
+  .mobAvatar .css-xl71ch {
+    display: flex !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 398px) {
+  html {
+    font-size: 0.75em;
+  }
 }
 
 /*
