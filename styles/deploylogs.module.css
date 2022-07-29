@@ -20,12 +20,13 @@
     align-items: center;
     padding: 1rem;
     background-color: white;
-    width: 50%;
+    /* width: 50%; */
     border-radius: 20px;
     margin-top: 5%;
     margin-top: 5%;
     box-shadow: .5px .5px 5px 1px lightgrey;
     font-weight: 600;
+    width: 45vw;
 }
 
 .deploy_actions img{
@@ -42,7 +43,7 @@
     /* margin:15px; */
 }
 .code{
-    width:50%;
+    width:45vw;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -57,5 +58,10 @@
 }
 
 @media screen and (max-width:700px) {
-  
+    .deploy_actions{
+        width: 70vw;
+    }
+    .code{
+        width: 70vw;
+    }
 }
