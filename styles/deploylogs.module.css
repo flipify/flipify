@@ -1,10 +1,11 @@
 .deploy_logs_header{
     margin-top: 10%;
     font-size: 2rem;
-    margin-bottom: 1%;    
+    margin-bottom: 40px;    
     text-align: center;
     font-weight:bolder;
 }
+/* 
 .deploy_actions_container{
   text-align: center;
   padding: 20px;
@@ -20,7 +21,6 @@
     align-items: center;
     padding: 1rem;
     background-color: white;
-    /* width: 50%; */
     border-radius: 20px;
     margin-top: 5%;
     margin-top: 5%;
@@ -30,7 +30,6 @@
 }
 
 .deploy_actions img{
-    /* border:1px solid red; */
     height: 1.5rem;
     cursor: pointer;
 }
@@ -40,7 +39,6 @@
     padding: 10px;
     padding-bottom: 30px;
     border-radius: 10px;
-    /* margin:15px; */
 }
 .code{
     width:45vw;
@@ -49,8 +47,6 @@
     border-radius: 10px;
 }
 .code code{
-    /* background-color: black; */
-    /* border: 1px solid red; */
     color: white;
     padding: 20px;
     font-size: 0.9rem;
@@ -64,4 +60,79 @@
     .code{
         width: 70vw;
     }
+} */
+
+.accordion_container{
+    width:40vw;
+    margin:0 auto;
+    background-color: white;
+    margin-bottom:20px;
+    margin-top:10px;
+    border-radius: 15px;
+    font-weight:700;
+    box-shadow: 0px 10px 20px grey;
 }
+.accordion_container:hover{
+    background-color: white;
+}
+.text_title{
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.accordionItem{
+    
+}
+.code_snippet{
+    /* border-radius: 40px; */
+    color: white;
+    font-family: Roboto Mono;
+    font-size:0.85rem;
+    font-weight:400;
+    
+}
+.accordionPanel{
+    background-color: black;
+    border:15px solid white;
+    border-left-width:13px;
+    border-right-width:13px;
+    border-bottom-width:25px;
+    border-top-width:15px;
+    border-bottom-right-radius:35px;
+    border-bottom-left-radius:35px;
+    border-top-left-radius:36px;
+    border-top-right-radius:36px;
+    height:340px;
+}
+
+.css-17mg6aq{
+    border-top-width:0px;
+    border-bottom-width: 0px;
+}
+.css-17mg6aq:hover{
+    background-color:white;
+    border-radius:10px;
+}
+
+.css-17mg6aq:last-of-type{
+    border-bottom-width:0px;
+}
+.failure{
+    color:#C23131
+}
+.success{
+    color:#20B826
+}
+
+@media screen and (max-width:700px) {
+    .accordion_container{
+        width:70vw;
+        /* margin:0 auto;
+        background-color: white;
+        margin-bottom:20px;
+        margin-top:10px;
+        border-radius: 10px; */
+    }    
+}
+
+
