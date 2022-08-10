@@ -18,7 +18,10 @@
     "next": "12.2.1",
     "react": "18.2.0",
     "react-bootstrap": "^2.4.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-player": "^2.10.1",
+    "react-video-js-player": "^1.1.1",
+    "react-video-renderer": "^2.5.1"
   },
   "devDependencies": {
     "eslint": "8.19.0",

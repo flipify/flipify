@@ -8,12 +8,21 @@ import DashContent from '../Components/DashboardNav/DashContent';
 // import prism from 'react-syntax-highlighter/dist/esm/styles/prism/prism';
 import Image from 'next/image';
 import {useState} from 'react';
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+  Box
+} from '@chakra-ui/react'
 
 
 
 
 // SyntaxHighlighter.registerLanguage('jsx', jsx);
-const codeSnippet=`function copyToClipboard(text) {
+const codeSnippet=`
+   function copyToClipboard(text) {                         
    const elem = document.createElement('textarea');
    elem.value = text;
    document.body.appendChild(elem);
@@ -26,7 +35,8 @@ function copyToClipboard(text) {
    elem.value = text;
    document.body.appendChild(elem);
    elem.select();
-   document.execCommand('copy');`
+   document.execCommand('copy');
+  `
 
 
 
@@ -64,7 +74,143 @@ const Deploylogs = () => {
       <div className="gridContainer">
         <DashboardNav />
         <DashContent>
-          <div className={styles.deploy_logs_header}>
+        <div className={styles.deploy_logs_header}>
+            <h1>Deploy Logs</h1>
+        </div>
+  <Accordion
+  className={styles.accordion_container}
+  allowMultiple
+  defaultIndex={[0]}
+  >
+  <AccordionItem
+  className={styles.accordionItem}
+  >
+    <h2>
+      <AccordionButton
+      
+      >
+        <Box 
+        flex='1' textAlign='left'
+        className={styles.text_title}
+        >
+          Deploy to Heroku <span className={styles.failure}>unsuccessful</span>
+        </Box>
+        {/* <AccordionIcon /> */}
+        <img src='/dropdownarrow.png'/>
+      </AccordionButton>
+    </h2>
+    <AccordionPanel 
+    className={styles.accordionPanel}
+    pb={4}>
+    <code className={styles.code_snippet}>
+      {codeSnippet}
+    </code>
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+
+
+<Accordion
+  className={styles.accordion_container}
+  allowMultiple
+  defaultIndex={[0]}
+  >
+<AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'
+        className={styles.text_title}
+        >
+          Deploy to Gatsby Cloud <span className={styles.success}>successful</span>
+        </Box>
+        <img src='/dropdownarrow.png'/>
+      </AccordionButton>
+    </h2>
+    <AccordionPanel 
+    className={styles.accordionPanel}
+    pb={4}>
+    <code className={styles.code_snippet}>
+      {codeSnippet}
+    </code>
+    </AccordionPanel>
+  </AccordionItem>
+  </Accordion>
+<Accordion
+  className={styles.accordion_container}
+  allowMultiple
+  defaultIndex={[0]}
+  >
+<AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'
+        className={styles.text_title}
+        >
+          Deploy to AWS <span className={styles.success}>successful</span>
+        </Box>
+        <img src='/dropdownarrow.png'/>
+      </AccordionButton>
+    </h2>
+    <AccordionPanel 
+    className={styles.accordionPanel}
+    pb={4}>
+    <code className={styles.code_snippet}>
+      {codeSnippet}
+    </code>
+    </AccordionPanel>
+  </AccordionItem>
+  </Accordion>
+<Accordion
+  className={styles.accordion_container}
+  allowMultiple
+  defaultIndex={[0]}
+  >
+<AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'
+        className={styles.text_title}
+        >
+          Deploy to Render <span className={styles.success}>successful</span>
+        </Box>
+        <img src='/dropdownarrow.png'/>
+      </AccordionButton>
+    </h2>
+    <AccordionPanel 
+    className={styles.accordionPanel}
+    pb={4}>
+    <code className={styles.code_snippet}>
+      {codeSnippet}
+    </code>
+    </AccordionPanel>
+  </AccordionItem>
+  </Accordion>
+<Accordion
+  className={styles.accordion_container}
+  allowMultiple
+  defaultIndex={[0]}
+  >
+<AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'
+        className={styles.text_title}
+        >
+          Deploy to Begin <span className={styles.failure}>unsuccessful</span>
+        </Box>
+        <img src='/dropdownarrow.png'/>
+      </AccordionButton>
+    </h2>
+    <AccordionPanel 
+    className={styles.accordionPanel}
+    pb={4}>
+    <code className={styles.code_snippet}>
+      {codeSnippet}
+    </code>
+    </AccordionPanel>
+  </AccordionItem>
+  </Accordion>
+          {/* <div className={styles.deploy_logs_header}>
             <h1>Deploy Logs</h1>
           </div>
 
@@ -152,7 +298,7 @@ const Deploylogs = () => {
               </div>
             </div>
             }
-          </div> 
+          </div>  */}
         </DashContent>
       </div>
     </div>

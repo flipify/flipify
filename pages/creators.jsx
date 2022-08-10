@@ -1,20 +1,30 @@
 import Image from 'next/image';
 import React from 'react'
 import styles from '../styles/creators.module.css'
+import Head from 'next/head';
+import Link from 'next/link'
 
 
 const Creators = () => {
   return (
-    <div className={styles.creators_page}>
+    <div className='bgContainer'>
+        <Head>
+        <title>The Team - Flipify</title>
+        <meta name="description" content="Meet The Team" />
+      </Head>
+      
         <div className={styles.creators_page_inner_container}>
         <div className={styles.navbar}>
+        <Link href='/'>
         <Image 
         className={styles.logoNav}
         alt='logo'
         src='/logo.png' width={100} height={50}/>
+        </Link>
+        
 
         <div className={styles.nav_section2}>
-            <p>The Team</p>
+            <p className={styles.navitem1}>The Team</p>
             <p>How it works</p>
             <p>Docs</p>
         </div>
@@ -36,64 +46,78 @@ const Creators = () => {
                         <Image
                         className={styles.image_main}
                         alt='creator'
-                        src='/dorcasojo.png' width={200} height={200}/>
+                        src='/dorcasojo.png' width={200} height={290}/>
                         <p>Dorcas Ojo</p>
-                        <p>Cloud/DevOps</p>
-                        <p><Image
+                        <p className={styles.role}>Cloud/DevOps</p>
+                        <p>
+                        <a href='https://mobile.twitter.com/_iamdorcas_'>
+                        <Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
+                        src='/twitter.svg'/>
+                        </a>    
+                        </p>
                         </div>
                         <div className={styles.image_container}>
                         <Image
                         className={styles.image_main}
                         alt='creator'
-                        src='/saintmalik.png' width={200} height={200}/>
+                        src='/saintmalik.png' width={200} height={290}/>
                         <p>AbdulMalik Salawu</p>
-                        <p>Project Lead</p>
-                        <p><Image
-                        alt='twitter'
-                        width={12}
-                        height={12}
-                        style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
-                        </div>
-                        <div className={styles.image_container}>
+                        <p className={styles.role}>Project Lead</p>
+                        <p>
+                        <a href='https://twitter.com/saintmalik_'>
                         <Image
-                        className={styles.image_main}
-                        alt='creator'
-                        src='/oluwaseunadefemi.png' width={200} height={200}/>
-                        <p>Adefemi Oluwaseun</p>
-                        <p>Cyber Sec</p>
-                        <p><Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/linkedin.png'/></p>
+                        src='/twitter.svg'/>
+                        </a>
+                        </p>
+                        </div>
+                        <div className={`${styles.image_container} ${styles.adefemi}`}>
+                        <Image
+                        className={`${styles.image_main}`}
+                        alt='creator'
+                        src='/oluwaseunadefemi.png' width={200} height={290}/>
+                        <p>Adefemi Oluwaseun</p>
+                        <p className={styles.role}>Cyber Sec</p>
+                        <p>
+                            <a href='https://www.linkedin.com/in/opeyemlastborn'>
+                            <Image
+                        alt='linkedIn'
+                        width={25}
+                        height={18}
+                        style={{objectFit:'contain',width:'10px',height:'10px'}}
+                        src='/linked.svg'/>
+                            </a>
+                        </p>
                         </div>
                         <div className={styles.image_container}>
                         <Image 
                         className={styles.image_main}
                         alt='creator'
-                        src='/davidfabiyi.png' width={200} height={200}/>
+                        src='/davidfabiyi.png' width={200} height={290}/>
                         <p>David Fabiyi T.</p>
-                        <p>Product Designer</p>
+                        <p className={styles.role}>Product Designer</p>
                         <div
-                        style={{display:'flex',justifyContent:'center'}}><Image
+                        style={{display:'flex',justifyContent:'center'}}>
+                        <Image
                         alt='twitter'
-                        width={12}
-                        height={12}
-                        style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/>
+                        width={25}
+                        height={18}
+                        style={{objectFit:'contain',width:'20px',height:'10px'}}
+                        src='/twitter.svg'/>
                         <Image
                         alt='linkedin'
-                        width={12}
-                        height={12}
-                        style={{objectFit:'contain',marginLeft:'2px',width:'10px',height:'10px'}}
-                        src='/linkedin.png'/>
+                        width={25}
+                        height={18}
+                        style={{
+                            padding:'14px',objectFit:'contain',marginLeft:'1px',width:'20px',height:'10px'}}
+                        src='/linked.svg'/>
                         </div>
                         </div>
                     </div>
@@ -102,64 +126,74 @@ const Creators = () => {
                         <Image 
                         className={styles.image_main}
                         alt='creator'
-                        src='/gbengaadeyi.png' width={200} height={200}/>
+                        src='/gbengaadeyi.png' width={200} height={290}/>
                         <p>Gbenga Adeyi</p>
-                        <p>Backend Dev</p>
-                        <p><Image
+                        <p className={styles.role}>Backend Developer</p>
+                        <p>
+                        <a href='https://twitter.com/jigani99'>
+                        <Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
+                        src='/twitter.svg'/>
+                        </a>
+                        </p>
                         </div>
                         <div className={styles.image_container}>
                         <Image 
                         className={styles.image_main}
                         alt='creator'
-                        src='/enochfabiyi.png' width={200} height={200}/>
+                        src='/enochfabiyi.png' width={200} height={290}/>
                         <p>Enoch Fabiyi</p>
-                        <p>Frontend Dev</p>
+                        <p className={styles.role}>Frontend Developer</p>
                         <div><Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',marginRight:'2px',width:'10px',height:'10px'}}
-                        src='/twitter.png'/>
+                        src='/twitter.svg'/>
+                        <a href='https://www.linkedin.com/in/enoch-fabiyi-bb04331a5'>
                         <Image
-                        alt='twitter'
-                        width={12}
-                        height={12}
+                        alt='linkedin'
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/linkedin.png'/>
+                        src='/linked.svg'/>
+                        </a>
                         </div>
                         </div>
                         <div className={styles.image_container}>
                         <Image
                         className={styles.image_main}
                         alt='creator'
-                        src='/ebedavid.png' width={200} height={200}/>
+                        src='/ebedavid.png' width={200} height={290}/>
                         <p>Ebe David</p>
-                        <p>Frontend Dev</p>
+                        <p className={styles.role}>Frontend Developer</p>
                         <p><Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
+                        src='/twitter.svg'/></p>
                         </div>
                         <div className={styles.image_container}>
                         <Image 
                         className={styles.image_main}
                         alt='creator'
-                        src='/daramolaafeez.png' width={200} height={200}/>
+                        src='/daramolaafeez.png' width={200} height={290}/>
                         <p>Daramola Afeez</p>
-                        <p>FullStack Dev</p>
-                        <p><Image
+                        <p className={styles.role}>FullStack Developer</p>
+                        <p>
+                        <a href='https://www.linkedin.com/in/daramola-afeez-92ba741b5'>
+                        <Image
                         alt='twitter'
-                        width={12}
-                        height={12}
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
+                        src='/linked.svg'/>
+                        </a>    
+                        </p>
                         </div>
                     </div>
                     <div className={styles.creators3}>
@@ -167,34 +201,51 @@ const Creators = () => {
                             <Image 
                             className={styles.image_main}
                             alt='creator'
-                            src='/isaiaholaoye.png' width={200} height={200}/>
+                            src='/isaiaholaoye.png' width={200} height={290}/>
                             <p>Isaiah Olaoye</p>
-                            <p>FullStack Dev</p>
+                            <p className={styles.role}>FullStack Developer</p>
+                            <p>
+                        <a href='https://www.linkedin.com/in/isaiah-olaoye'>
+                        <Image
+                        alt='twitter'
+                        width={25}
+                        height={18}
+                        style={{objectFit:'contain',width:'10px',height:'10px'}}
+                        src='/linked.svg'/>
+                        </a>        
+                        </p>
                         </div>
                         <div className={styles.image_container}>
                             <Image
                             className={styles.image_main}
                             alt='creator'
-                            src='/robertcoffie.png' width={200} height={200}/>
+                            src='/robertcoffie.png' width={200} height={290}/>
                             <p>Robert Coffie</p>
-                            <p>Backend Dev</p>
-                            <p><Image
-                        alt='twitter'
-                        width={12}
-                        height={12}
+                            <p className={styles.role}>Backend Developer</p>
+                            <p>
+                            <a href='https://twitter.com/local_Boi'>
+                        <Image
+                                alt='twitter'
+                        width={25}
+                        height={18}
                         style={{objectFit:'contain',width:'10px',height:'10px'}}
-                        src='/twitter.png'/></p>
+                        src='/twitter.svg'/>
+                                </a>
+                                </p>
+                        </div>
+                        
+                        <div className={styles.image_container}>
+                            
+                        </div>
+                        <div className={styles.image_container}>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         </div>
-        
-        
-
-    </div>
+        </div>
   )
 }
 
