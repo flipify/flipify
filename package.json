@@ -14,14 +14,21 @@
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "bootstrap": "^5.1.3",
+    "chart.js": "^3.8.2",
     "framer-motion": "^6.4.3",
     "next": "12.2.1",
     "react": "18.2.0",
     "react-bootstrap": "^2.4.0",
+<<<<<<< HEAD
     "react-dom": "18.2.0",
     "react-player": "^2.10.1",
     "react-video-js-player": "^1.1.1",
     "react-video-renderer": "^2.5.1"
+=======
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-svg": "^15.1.3"
+>>>>>>> 477b0aa01e72718a9c614be477a1c3d61097abfc
   },
   "devDependencies": {
     "eslint": "8.19.0",
