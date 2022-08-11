@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import Arrow from '../public/arrowhome.svg'
 import Image from 'next/image'
-import Video from 'react-video-renderer'
 import Link from 'next/link'
 
 
