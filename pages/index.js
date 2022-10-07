@@ -32,7 +32,9 @@ export default function Home() {
                 How it works
               </li>
               <li>
+                <Link href="https://flipify.dev/docs">
                 Docs
+                </Link>
               </li>
             </ul>
           </div>
