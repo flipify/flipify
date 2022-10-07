@@ -4,6 +4,7 @@ import Arrow from '../public/arrowhome.svg'
 import Logo from '../public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import DashboardVideo from '../Components/Video/DashboardVideo'
 
 
 
@@ -59,17 +60,7 @@ export default function Home() {
                 <p className='flipify_works'>HOW FLIPIFY WORKS</p>
                 <p className='immune'>A new way to be immune to server downtime</p>
                 <div className='video_flipify'>
-                 {/* <video width="750" height="900" loop='true' autoPlay='true' controls src="./Videos/Howtouseflipify.mp4" type="video/mp4">
-                  {/* <source src="./Videos/Howtouseflipify.mp4" type="video/mp4"/> 
-                </video>*/}
-        <iframe
-        // height=''
-        // width='10%'
-        id='video'
-        title='how to use flipify'
-        src={'/Videos/Howtouseflipify.mp4'}
-        frameBorder='0'
-        ></iframe>
+                  <DashboardVideo />
                  </div>
               </div>
             </div>
