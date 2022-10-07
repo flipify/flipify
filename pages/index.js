@@ -1,5 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
+import Arrow from '../public/arrowhome.svg'
+import Logo from '../public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import DashboardVideo from '../Components/Video/DashboardVideo'
@@ -19,7 +21,7 @@ export default function Home() {
       <div className='home_container'>
         <div className='navbar_home'>
           <div className='navbar_home_logo'>
-          <img src='/logo.png'/>
+          <Image src={Logo} alt='Nav Logo' width={150} height={40} />
           </div>
           <div className='navList'>
             <ul>
@@ -32,7 +34,9 @@ export default function Home() {
                 How it works
               </li>
               <li>
+                <Link href="https://flipify.dev/docs">
                 Docs
+                </Link>
               </li>
             </ul>
           </div>
@@ -50,7 +54,7 @@ export default function Home() {
               </button>
               </div>
               <div className='arrow_home'>
-                <img src='/arrowhome.svg'/>
+                <Image src={Arrow} alt='arow-down' width={50} height={50} />
               </div>
               <div className='body_home_main_two'>
                 <p className='flipify_works'>HOW FLIPIFY WORKS</p>
