@@ -52,7 +52,7 @@ export default function Home() {
               </button>
               </div>
               <div className='arrow_home'>
-                <img src='/arrowhome.svg'/>
+                <Image src='/arrowhome.svg' alt='arow-down' width={50} height={50} />
               </div>
               <div className='body_home_main_two'>
                 <p className='flipify_works'>HOW FLIPIFY WORKS</p>
