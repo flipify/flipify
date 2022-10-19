@@ -1,51 +1,51 @@
 .hostPro_Cards {
-  border: 2px solid transparent;
-  display: flex;
-  cursor: pointer;
-  justify-content: center;
-  padding: 18px 0;
-  background: #ffffff;
-  box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
-  border-radius: 13px;
-  -webkit-border-radius: 13px;
-  -moz-border-radius: 13px;
-  -ms-border-radius: 13px;
-  -o-border-radius: 13px;
+    border: 2px solid transparent;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    padding: 18px 0;
+    background: #ffffff;
+    box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
 }
 
 .hostPro_Cards:hover {
-  border: 2px solid rgba(115, 54, 230, 1);
+    border: 2px solid rgba(115, 54, 230, 1);
 }
 
 .hostPro_Cards__active {
-  border: 2px solid rgba(115, 54, 230, 1);
+    border: 2px solid rgba(115, 54, 230, 1);
 }
 
 .hostPro_Cards img {
-  width: 10.5em !important;
+    width: 10.5em !important;
 }
 
 .col_no_padding {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .col_no_padding:last-of-type,
 .col_no_padding:nth-last-of-type(2) {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 1060px) {
-  .hostPro_Cards img {
-    width: 9.5em !important;
-  }
+    .hostPro_Cards img {
+        width: 9.5em !important;
+    }
 }
 
 @media (max-width: 991px) {
-  .hostPro_Cards img {
-    width: 8.3em !important;
-  }
+    .hostPro_Cards img {
+        width: 8.3em !important;
+    }
 
-  .hostPro_Cards {
-    padding: 15px 0;
-  }
+    .hostPro_Cards {
+        padding: 15px 0;
+    }
 }

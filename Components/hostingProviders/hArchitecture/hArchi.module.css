@@ -1,19 +1,19 @@
 .hostArchi_Cards img {
-  width: 5.7em !important;
+    width: 5.7em !important;
 }
 
 .hostArchi_Cards {
-  padding: 12px 0;
+    padding: 12px 0;
 }
 
 @media (max-width: 1060px) {
-  .hostArchi_Cards img {
-    width: 5em !important;
-  }
+    .hostArchi_Cards img {
+        width: 5em !important;
+    }
 }
 
 @media (max-width: 767px) {
-  .hostArchi_Cards {
-    padding: 10.5px 0;
-  }
+    .hostArchi_Cards {
+        padding: 10.5px 0;
+    }
 }
