@@ -1,378 +1,378 @@
 .containerParent {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .containerParent h2 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 34px;
-  font-size: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 34px;
+    font-size: 2.8rem;
 }
 
 .hostParent {
-  width: 63em;
-  margin: 0 auto;
+    width: 63em;
+    margin: 0 auto;
 }
 
 .host__section {
-  margin-top: 4em;
-  padding-bottom: 2em;
+    margin-top: 4em;
+    padding-bottom: 2em;
 }
 
 .host__section:last-of-type {
-  padding-bottom: 4.3em;
+    padding-bottom: 4.3em;
 }
 /* ARCHI SECTION  */
 .host__archiParent {
-  width: 63em;
-  margin: 0 auto;
+    width: 63em;
+    margin: 0 auto;
 }
 
 .host__archiFlex {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .host__archiDetails {
-  flex: 90%;
+    flex: 90%;
 }
 
 .host__archiDetails___DB {
-  flex: 40%;
+    flex: 40%;
 }
 
 .host__stack {
-  text-align: left;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  margin-bottom: 2px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 2px;
 }
 
 .host_archiArrow {
-  margin: 0 2.5em;
-  width: 7em;
+    margin: 0 2.5em;
+    width: 7em;
 }
 
 .host__NextBtn {
-  border-radius: 9px;
-  font-size: 0.9rem;
-  width: 8rem;
-  margin-top: 30px;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  -ms-border-radius: 9px;
-  -o-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 0.9rem;
+    width: 8rem;
+    margin-top: 30px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
 }
 
 /* PROJECT NAME */
 .host__ProjectName {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .host__ProjectName__inside {
-  padding-top: 2.4em;
-  padding-bottom: 2.2em;
-  margin: 8em auto 0;
-  background: rgba(255, 255, 255, 0.76);
-  box-shadow: -12px 20px 35px rgb(0 0 0 / 13%);
-  backdrop-filter: blur(17px);
-  border-radius: 12px;
-  width: 27em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    padding-top: 2.4em;
+    padding-bottom: 2.2em;
+    margin: 8em auto 0;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: -12px 20px 35px rgb(0 0 0 / 13%);
+    backdrop-filter: blur(17px);
+    border-radius: 12px;
+    width: 27em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .host__ProjectName__inside p:first-child {
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
-  color: #4c4c4c;
-  font-size: 1.7rem;
-  margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #4c4c4c;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
 }
 
 .host__Input {
-  padding: 11.7px 0;
-  width: 18em;
+    padding: 11.7px 0;
+    width: 18em;
 }
 
 .host__Input,
 .host__Input::placeholder {
-  text-align: center;
-  font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.19);
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
 .host__ProjectName__inside button {
-  font-family: "Roboto Flex";
-  font-weight: 500;
-  background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
-  border-radius: 9.5px;
-  color: #fff;
-  font-size: 1rem;
-  padding: 8px 42px;
-  text-transform: uppercase;
-  margin-top: 17px;
-  margin-bottom: 12px;
+    font-family: 'Roboto Flex';
+    font-weight: 500;
+    background: linear-gradient(90deg, #4f42c4 0%, #7336e6 100%);
+    border-radius: 9.5px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 8px 42px;
+    text-transform: uppercase;
+    margin-top: 17px;
+    margin-bottom: 12px;
 }
 
 .host__ProjectName__inside p:last-child {
-  font-family: "Roboto Flex", sans-serif;
-  color: #989898;
-  font-size: 1rem;
-  cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #989898;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 /* HOST CARDS SECTION */
 .hostArchi__dbRow {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .hostArchi_Cards_DB:hover {
-  border: 2px solid rgba(115, 54, 230, 1);
+    border: 2px solid rgba(115, 54, 230, 1);
 }
 
 .hostArchi_Cards_DB__active {
-  border: 2px solid rgba(115, 54, 230, 1);
+    border: 2px solid rgba(115, 54, 230, 1);
 }
 
 .hostArchi_Cards_DB {
-  border: 2px solid transparent;
-  display: flex;
-  cursor: pointer;
-  justify-content: flex-start;
-  align-items: center;
-  background: #ffffff;
-  box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  padding: 12px 0;
-  padding-left: 13px;
+    border: 2px solid transparent;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 11.8904px 4.45889px 32.6986px rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 12px 0;
+    padding-left: 13px;
 }
 
 .hostArchi__dbRow:last-of-type {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .hostArchi_Cards_DB p {
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .dbIco {
-  width: 1.2em;
-  margin-right: 6px;
+    width: 1.2em;
+    margin-right: 6px;
 }
 
 @media (max-width: 1200px) {
-  .hostParent,
-  .host__archiParent {
-    width: 60em;
-  }
+    .hostParent,
+    .host__archiParent {
+        width: 60em;
+    }
 }
 
 @media (max-width: 1060px) {
-  .hostParent,
-  .host__archiParent {
-    width: 56em;
-  }
+    .hostParent,
+    .host__archiParent {
+        width: 56em;
+    }
 
-  .selectHost_dbIco {
-    width: 1.14em;
-  }
+    .selectHost_dbIco {
+        width: 1.14em;
+    }
 
-  .host_archiArrow {
-    margin: 0 2em;
-  }
+    .host_archiArrow {
+        margin: 0 2em;
+    }
 
-  .host__NextBtn {
-    width: 7rem;
-  }
+    .host__NextBtn {
+        width: 7rem;
+    }
 }
 
 @media (max-width: 991px) {
-  .containerParent h2 {
-    font-size: 2.5rem;
-  }
+    .containerParent h2 {
+        font-size: 2.5rem;
+    }
 
-  .host__archiFlex {
-    margin: 0 auto;
-    max-width: 720px;
-  }
+    .host__archiFlex {
+        margin: 0 auto;
+        max-width: 720px;
+    }
 
-  .host_archiArrow {
-    margin: 0 1em;
-  }
+    .host_archiArrow {
+        margin: 0 1em;
+    }
 
-  .hostArchi_Cards_DB {
-    padding: 9px 0;
-    padding-left: 10px;
-  }
+    .hostArchi_Cards_DB {
+        padding: 9px 0;
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 767px) {
-  .containerParent h2 {
-    font-size: 2.2rem;
-  }
+    .containerParent h2 {
+        font-size: 2.2rem;
+    }
 
-  .containerParent h2 {
-    margin-bottom: 27px;
-  }
+    .containerParent h2 {
+        margin-bottom: 27px;
+    }
 
-  .hostParent,
-  .host__archiParent {
-    width: 39em;
-  }
+    .hostParent,
+    .host__archiParent {
+        width: 39em;
+    }
 
-  .nav {
-    width: 37em;
-  }
+    .nav {
+        width: 37em;
+    }
 
-  .host__archiFlex {
-    flex-wrap: wrap;
-  }
+    .host__archiFlex {
+        flex-wrap: wrap;
+    }
 
-  .host__archiDetails {
-    flex: 25% 1;
-  }
+    .host__archiDetails {
+        flex: 25% 1;
+    }
 
-  .host_archiArrow {
-    margin: 0 0.5em;
-    width: 3em;
-  }
+    .host_archiArrow {
+        margin: 0 0.5em;
+        width: 3em;
+    }
 
-  .host_archiArrow2_FlexEdit {
-    flex: 100%;
-    margin: 22px 0;
-    transform: rotate(90deg);
-    height: 1.15em;
-  }
+    .host_archiArrow2_FlexEdit {
+        flex: 100%;
+        margin: 22px 0;
+        transform: rotate(90deg);
+        height: 1.15em;
+    }
 
-  .host__archiDetails___DB {
-    flex: 23% 0;
-    margin: 0 auto;
-    margin-bottom: -5.5em;
-  }
+    .host__archiDetails___DB {
+        flex: 23% 0;
+        margin: 0 auto;
+        margin-bottom: -5.5em;
+    }
 }
 
 @media (max-width: 575px) {
-  .host__section {
-    padding-bottom: 2em;
-  }
+    .host__section {
+        padding-bottom: 2em;
+    }
 
-  .containerParent h2 {
-    padding: 0 2em;
-  }
+    .containerParent h2 {
+        padding: 0 2em;
+    }
 
-  .host__archiDetails,
-  .hostParent {
-    width: 32em;
-  }
+    .host__archiDetails,
+    .hostParent {
+        width: 32em;
+    }
 
-  .host__archiParent {
-    width: 100%;
-  }
+    .host__archiParent {
+        width: 100%;
+    }
 
-  .host__archiDetails {
-    flex: 100% 1;
-  }
+    .host__archiDetails {
+        flex: 100% 1;
+    }
 
-  .host_archiArrow {
-    flex: 100% 1;
-    margin: 22px 0;
-    transform: rotate(90deg);
-    margin: 29px 0 20px;
-    width: 2.4em;
-  }
+    .host_archiArrow {
+        flex: 100% 1;
+        margin: 22px 0;
+        transform: rotate(90deg);
+        margin: 29px 0 20px;
+        width: 2.4em;
+    }
 
-  .host__archiFlex {
-    flex-direction: column;
-  }
+    .host__archiFlex {
+        flex-direction: column;
+    }
 
-  .host__archiDetails {
-    width: 32em;
-  }
+    .host__archiDetails {
+        width: 32em;
+    }
 
-  .host__archiDetails___DB {
-    width: 8em;
-  }
+    .host__archiDetails___DB {
+        width: 8em;
+    }
 
-  .hostArchi_Cards_DB {
-    padding: 7px 0;
-    padding-left: 10px;
-    border-radius: 11px;
-  }
+    .hostArchi_Cards_DB {
+        padding: 7px 0;
+        padding-left: 10px;
+        border-radius: 11px;
+    }
 
-  .host__NextBtn {
-    width: 9rem;
-    padding: 10px 0;
-  }
+    .host__NextBtn {
+        width: 9rem;
+        padding: 10px 0;
+    }
 }
 
 @media (max-width: 450px) {
-  .containerParent h2 {
-    padding: 0 1em;
-  }
+    .containerParent h2 {
+        padding: 0 1em;
+    }
 
-  .host__archiDetails,
-  .hostParent {
-    width: 28em;
-  }
+    .host__archiDetails,
+    .hostParent {
+        width: 28em;
+    }
 
-  .host__archiDetails___DB {
-    width: 9em;
-  }
+    .host__archiDetails___DB {
+        width: 9em;
+    }
 }
 
 @media (max-width: 398px) {
-  .containerParent h2 {
-    padding: 0 0.5em;
-  }
+    .containerParent h2 {
+        padding: 0 0.5em;
+    }
 
-  .host__archiDetails,
-  .hostParent {
-    width: 27em;
-  }
+    .host__archiDetails,
+    .hostParent {
+        width: 27em;
+    }
 
-  .host__archiDetails___DB {
-    width: 8em;
-  }
+    .host__archiDetails___DB {
+        width: 8em;
+    }
 }
 
 @media (max-width: 336px) {
-  .containerParent h2 {
-    padding: 0 0.2em;
-  }
+    .containerParent h2 {
+        padding: 0 0.2em;
+    }
 
-  .host__archiDetails,
-  .hostParent {
-    width: 24em;
-  }
+    .host__archiDetails,
+    .hostParent {
+        width: 24em;
+    }
 
-  .host__archiDetails___DB {
-    width: 7em;
-  }
+    .host__archiDetails___DB {
+        width: 7em;
+    }
 }
 /*
 font-family: 'Lato', sans-serif;
