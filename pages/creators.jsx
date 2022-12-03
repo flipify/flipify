@@ -51,10 +51,10 @@ const Creators = () => {
                         <div className={styles.creatorsInner}>
                             <div className={styles.creators1}>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/dorcasojo.png"
+                                        src="/dorcasojo.png"
                                         width={200}
                                         height={290}
                                     />
@@ -77,10 +77,10 @@ const Creators = () => {
                                     </p>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/saintmalik.png"
+                                        src="/saintmalik.png"
                                         width={200}
                                         height={290}
                                     />
@@ -105,10 +105,10 @@ const Creators = () => {
                                 <div
                                     className={`${styles.image_container} ${styles.adefemi}`}
                                 >
-                                    <Image
+                                    <img
                                         className={`${styles.image_main}`}
                                         alt="creator"
-                                        src="/public/oluwaseunadefemi.png"
+                                        src="/oluwaseunadefemi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -131,10 +131,10 @@ const Creators = () => {
                                     </p>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/davidfabiyi.png"
+                                        src="/davidfabiyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -177,10 +177,10 @@ const Creators = () => {
                             </div>
                             <div className={styles.creators2}>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/gbengaadeyi.png"
+                                        src="/gbengaadeyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -205,10 +205,10 @@ const Creators = () => {
                                     </p>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/enochfabiyi.png"
+                                        src="/enochfabiyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -247,10 +247,10 @@ const Creators = () => {
                                     </div>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/ebedavid.png"
+                                        src="/ebedavid.png"
                                         width={200}
                                         height={290}
                                     />
@@ -273,10 +273,10 @@ const Creators = () => {
                                     </p>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/daramolaafeez.png"
+                                        src="/daramolaafeez.png"
                                         width={200}
                                         height={290}
                                     />
@@ -303,10 +303,10 @@ const Creators = () => {
                             </div>
                             <div className={styles.creators3}>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/isaiaholaoye.png"
+                                        src="/isaiaholaoye.png"
                                         width={200}
                                         height={290}
                                     />
@@ -331,10 +331,10 @@ const Creators = () => {
                                     </p>
                                 </div>
                                 <div className={styles.image_container}>
-                                    <Image
+                                    <img
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/public/robertcoffie.png"
+                                        src="/robertcoffie.png"
                                         width={200}
                                         height={290}
                                     />
