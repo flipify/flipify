@@ -54,7 +54,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/dorcasojo.png"
+                                        src="/public/dorcasojo.png"
                                         width={200}
                                         height={290}
                                     />
@@ -80,7 +80,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/saintmalik.png"
+                                        src="/public/saintmalik.png"
                                         width={200}
                                         height={290}
                                     />
@@ -108,7 +108,7 @@ const Creators = () => {
                                     <Image
                                         className={`${styles.image_main}`}
                                         alt="creator"
-                                        src="/oluwaseunadefemi.png"
+                                        src="/public/oluwaseunadefemi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -134,7 +134,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/davidfabiyi.png"
+                                        src="/public/davidfabiyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -180,7 +180,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/gbengaadeyi.png"
+                                        src="/public/gbengaadeyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -208,7 +208,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/enochfabiyi.png"
+                                        src="/public/enochfabiyi.png"
                                         width={200}
                                         height={290}
                                     />
@@ -217,18 +217,20 @@ const Creators = () => {
                                         Frontend Developer
                                     </p>
                                     <div>
-                                        <Image
-                                            alt="twitter"
-                                            width={25}
-                                            height={18}
-                                            style={{
-                                                objectFit: 'contain',
-                                                marginRight: '2px',
-                                                width: '10px',
-                                                height: '10px',
-                                            }}
-                                            src="/twitter.svg"
-                                        />
+                                        <a href="https://twitter.com/frontend_script">
+                                            <Image
+                                                alt="twitter"
+                                                width={25}
+                                                height={18}
+                                                style={{
+                                                    objectFit: 'contain',
+                                                    marginRight: '2px',
+                                                    width: '10px',
+                                                    height: '10px',
+                                                }}
+                                                src="/twitter.svg"
+                                            />
+                                        </a>
                                         <a href="https://www.linkedin.com/in/enoch-fabiyi-bb04331a5">
                                             <Image
                                                 alt="linkedin"
@@ -248,7 +250,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/ebedavid.png"
+                                        src="/public/ebedavid.png"
                                         width={200}
                                         height={290}
                                     />
@@ -274,7 +276,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/daramolaafeez.png"
+                                        src="/public/daramolaafeez.png"
                                         width={200}
                                         height={290}
                                     />
@@ -304,7 +306,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/isaiaholaoye.png"
+                                        src="/public/isaiaholaoye.png"
                                         width={200}
                                         height={290}
                                     />
@@ -332,7 +334,7 @@ const Creators = () => {
                                     <Image
                                         className={styles.image_main}
                                         alt="creator"
-                                        src="/robertcoffie.png"
+                                        src="/public/robertcoffie.png"
                                         width={200}
                                         height={290}
                                     />
