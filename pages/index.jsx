@@ -1,12 +1,54 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Head from 'next/head';
 import Arrow from '../public/arrowhome.svg';
 import Logo from '../public/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import DashboardVideo from '../Components/Video/DashboardVideo';
+import { useSession, signIn, signOut } from 'next-auth/react';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+    const router = useRouter();
+    const { data: session, status } = useSession();
+
+    useEffect(() => {
+        if (session && status === 'authenticated') {
+            window.close();
+            router.push(`/panel`);
+            console.log(session);
+        }
+    }, [session, status]);
+
+    const popupCenter = (url, title) => {
+        const dualScreenLeft = window.screenLeft ?? window.screenX;
+        const dualScreenTop = window.screenTop ?? window.screenY;
+        const width =
+            window.innerWidth ??
+            document.documentElement.clientWidth ??
+            screen.width;
+
+        const height =
+            window.innerHeight ??
+            document.documentElement.clientHeight ??
+            screen.height;
+
+        const systemZoom = width / window.screen.availWidth;
+
+        const left = (width - 500) / 2 / systemZoom + dualScreenLeft;
+        const top = (height - 550) / 2 / systemZoom + dualScreenTop;
+
+        const newWindow = window.open(
+            url,
+            title,
+            `width=${500 / systemZoom},height=${
+                550 / systemZoom
+            },top=${top},left=${left}`
+        );
+
+        newWindow?.focus();
+    };
+
     return (
         <div className="bgContainer">
             <Head>
@@ -49,10 +91,8 @@ export default function Home() {
                                     Switch from one hosting to a backup hosting
                                     just by flipping a switch
                                 </p>
-                                <button>
-                                    <a href="https://flipify-backend.herokuapp.com/api/v1/auth/github/">
-                                        LOGIN WTH GITHUB
-                                    </a>
+                                <button onClick={() => signIn('github')}>
+                                    LOGIN WTH GITHUB
                                 </button>
                             </div>
                             <div className="arrow_home">
