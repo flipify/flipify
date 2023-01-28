@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-    color: inherit;
+    color: inherit !important;
     text-decoration: none;
 }
 
