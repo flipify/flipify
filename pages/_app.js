@@ -1,12 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.css';
-import { ChakraProvider } from '@chakra-ui/react';
+import dynamic from 'next/dynamic';
 
-function MyApp({ Component, pageProps }) {
+const ChakraProvider = dynamic(() =>
+    import('@chakra-ui/react').then(mod => mod.ChakraProvider)
+);
+const SessionProvider = dynamic(() =>
+    import('next-auth/react').then(mod => mod.SessionProvider)
+);
+
+function MyApp({ Component, pageProps, session }) {
     return (
-        <ChakraProvider>
-            <Component {...pageProps} />
-        </ChakraProvider>
+        <SessionProvider session={session}>
+            <ChakraProvider>
+                <Component {...pageProps} />
+            </ChakraProvider>
+        </SessionProvider>
     );
 }
 
